@@ -1,0 +1,23 @@
+{
+  "name": "react-native-calcultaor-module",
+  "version": "0.0.0",
+  "description": "all ok",
+  "main": "src/index",
+  "codegenConfig": {
+    "name": "RNCalcultaorModuleSpec",
+    "type": "modules",
+    "jsSrcsDir": "src"
+  },
+  "author": " <> ()",
+  "license": "UNLICENSED",
+  "homepage": "#readme",
+  "devDependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.3"
+  },
+  "create-react-native-library": {
+    "type": "module-mixed",
+    "languages": "kotlin-objc",
+    "version": "0.38.2"
+  }
+}
