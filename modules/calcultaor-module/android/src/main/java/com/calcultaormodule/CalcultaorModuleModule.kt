@@ -15,7 +15,7 @@ class CalcultaorModuleModule internal constructor(context: ReactApplicationConte
   // See https://reactnative.dev/docs/native-modules-android
   @ReactMethod
   override fun multiply(a: Double, b: Double, promise: Promise) {
-    promise.resolve(a + b)
+    promise.resolve(a * b)
   }
 
   companion object {
